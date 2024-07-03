@@ -1,16 +1,15 @@
-
-
 <template>
-  <TetrisGame />
+  <div>
+    <TetrisGame />
+    <div>
+      <h4>手机访问</h4>
+      <img alt="手机访问" :src="qrcode" style="width: 100px; height: 100px" />
+    </div>
+  </div>
 </template>
-<script>
-
+<script setup>
 import TetrisGame from './components/TetrisGame.vue'
-export default {
-  components: {
-    TetrisGame
-  }
-}
+import qrcode from './assets/qrcode.png'
 </script>
 <style>
 * {
