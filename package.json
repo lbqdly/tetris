@@ -1,0 +1,17 @@
+{
+  "name": "tetris",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.2",
+    "vite": "^2.6.0"
+  }
+}
